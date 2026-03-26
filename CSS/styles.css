@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+
+    background: /* Poner en el fondo una imagen con opacidad */
+        linear-gradient(rgba(0, 0, 0, 0.796), rgba(0, 0, 0, 0.905)),
+        url(./../img/fondo.jpg); 
+        
+    background-size: cover; /* Para que la imagen cubra toda la pantalla */
+    background-position: center; /* Para que la imagen este centrada */
+    background-repeat: no-repeat; /* Para que la imagen de fondo no se vea mas de una vez */
+    background-attachment: fixed; /* Para que al scrolear no se mueva el fondo */
+}
+
+
+
+.banner {
+    background: rgba(255, 0, 0, 0.731);
+    color: #fff;
+    text-align: center; 
+    padding: 2rem 1rem; /* Espacio interno de dentro y lados */
+}
+
+.seccion {
+    max-width: 1000px;
+    margin: 2rem auto; /* Espacio arriba y abajo y centrado horizontal */
+    padding: 0 1rem; /* Espacio de dentro a los lados */
+}
+
+.seccion h2 {
+    border-bottom: 2px solid #ff6b6b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.elementos { /* Contenedor para organizar los elementos (platos ) en filas */
+    display: flex;
+    flex-wrap: wrap; /* Que las tarjetas / platos bajen de fila */
+    gap: 1rem; /* Espacio entre los elementos */
+}
+
+
+
+.item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Para poner sombra */
+    flex: 0 0 30%; /* Ponemos 5 platos por fila con este % */
+    box-sizing: border-box; /* Incluye padding y borde dentro del tamaño */
+
+}
+
+
+@media (max-width: 768px) { /* Cuando la pantalla sea de 768px o menos */
+    
+.item {
+
+    flex: 0 0 100%; /* Ponemos 5 platos por fila con este % */
+    background: #ffffff81;
+
+}
+}
+
+
+
+
+.fila { /* Precio y nombre */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.nombre {
+    font-weight: bold;
+    color:black;
+}
+
+.precio {
+    font-weight: bold;
+    color: #00ff11;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: rgb(16, 16, 16);
+}
+
+.calorias {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.iconos {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 15px; /* Espacio de dentro del footer */
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ff000079;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%; 
+  display: flex; /* Para alinear el contenido dentro */
+  justify-content: center; /* Centra horizontalmente el texto */
+
+}
+
+.boton:hover { /* Cuando pasas el raton por encima */
+  background-color: #b30000e2; 
+}

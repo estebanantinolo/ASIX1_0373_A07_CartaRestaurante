@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <!-- PIZZAS -->
+    <plato tipo="pizzas"><nombre>Pizza Jamón y Queso</nombre><precio>8.00</precio><descripcion>Tomate, queso y jamón</descripcion><calorias>500</calorias><ingredientes><categoria icono="./img/vegano.svg">veg</categoria></ingredientes></plato>
+    <plato tipo="pizzas"><nombre>Pizza Pepperoni</nombre><precio>9.50</precio><descripcion>Tomate, queso y pepperoni</descripcion><calorias>650</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="pizzas"><nombre>Pizza 4 Quesos</nombre><precio>10.00</precio><descripcion>Tomate, mozzarella, gorgonzola, parmesano y queso de cabra</descripcion><calorias>700</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="pizzas"><nombre>Pizza Vegetal</nombre><precio>9.00</precio><descripcion>Tomate, queso, verduras frescas</descripcion><calorias>450</calorias><ingredientes><categoria icono="./img/vegano.svg">vegano</categoria></ingredientes></plato>
+    <plato tipo="pizzas"><nombre>Pizza BBQ</nombre><precio>11.00</precio><descripcion>Salsa barbacoa, queso, carne</descripcion><calorias>800</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+
+    <!-- PASTAS -->
+    <plato tipo="pastas"><nombre>Carbonara</nombre><precio>10.00</precio><descripcion>Panceta y parmesano</descripcion><calorias>700</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="pastas"><nombre>Lasaña</nombre><precio>11.50</precio><descripcion>Carne y bechamel</descripcion><calorias>800</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="pastas"><nombre>Macarrones boloñesa</nombre><precio>9.00</precio><descripcion>Salsa boloñesa (carne, tomate, especias)</descripcion><calorias>600</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="pastas"><nombre>Ravioli</nombre><precio>10.50</precio><descripcion>Rellenos de queso</descripcion><calorias>650</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="pastas"><nombre>Tagliatelle</nombre><precio>9.80</precio><descripcion>Pasta fresca</descripcion><calorias>600</calorias><ingredientes><categoria icono="./img/vegano.svg">veg</categoria></ingredientes></plato>
+
+    <!-- CARNES -->
+    <plato tipo="carnes"><nombre>Entrecot</nombre><precio>15.00</precio><descripcion>Carne a la parrilla</descripcion><calorias>900</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="carnes"><nombre>Pollo al horno</nombre><precio>12.00</precio><descripcion>Especias italianas</descripcion><calorias>600</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="carnes"><nombre>Costillas BBQ</nombre><precio>14.00</precio><descripcion>Salsa BBQ</descripcion><calorias>850</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="carnes"><nombre>Solomillo</nombre><precio>16.00</precio><descripcion>Carne premium</descripcion><calorias>950</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+    <plato tipo="carnes"><nombre>Albóndigas</nombre><precio>11.00</precio><descripcion>Con tomate</descripcion><calorias>700</calorias><ingredientes><categoria icono="./img/carne.svg">carne</categoria></ingredientes></plato>
+
+    <!-- POSTRES -->
+    <plato tipo="postres"><nombre>Tiramisú</nombre><precio>5.00</precio><descripcion>Clásico italiano</descripcion><calorias>300</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="postres"><nombre>Helado chocolate</nombre><precio>4.50</precio><descripcion>Dos bolas</descripcion><calorias>200</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="postres"><nombre>Helado vainilla</nombre><precio>4.50</precio><descripcion>Dos bolas</descripcion><calorias>200</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="postres"><nombre>Tarta queso</nombre><precio>4.00</precio><descripcion>Dulce</descripcion><calorias>300</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+    <plato tipo="postres"><nombre>Tarta limón</nombre><precio>4.50</precio><descripcion>Dulce y ácida</descripcion><calorias>280</calorias><ingredientes><categoria icono="./img/lacteo.svg">lacteo</categoria></ingredientes></plato>
+
+</menu>
